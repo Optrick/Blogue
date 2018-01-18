@@ -21,10 +21,10 @@
 				</div> <!-- center -->
 			</div> <!-- brand -->
 			<div class="categorie">
-				<a href="#about">About</a>
-				<a href="#work">Work experience</a>
-				<a href="#education">Education</a>
-				<a href="#contact">Contact</a>
+				<a href="#about">À propos</a>
+				<a href="#work">Mes expériences</a>
+				<a href="#education">Éducation</a>
+				<a href="#contact">Me joindre</a>
 			</div> <!-- categorie -->
 		</nav>
 	</header><!-- /header -->
