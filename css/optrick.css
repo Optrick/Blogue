@@ -1,0 +1,282 @@
+/* Color Palette
+Noir Intense: #090005
+
+
+*/
+/* font-family
+______________________
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;  */
+
+/* Global style
+______________________*/
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+ul {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+h1 {
+	font-size: 2.6em;
+}
+figure {
+	margin: 0 auto;
+	padding: 0;
+	width: 600px;
+}
+img {
+	display: block;
+}
+.superFat {
+	font-size: 5.6em;
+}
+.col-wide h2:first-of-type {
+	color: #CCCCCC;
+	font-family: 'Merriweather', serif;
+	font-size: 1.1em;
+	font-weight: 200;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+.col-wide p:first-of-type {
+	margin-top: 5px;
+}
+h2 {
+	font-size: 1.6em;
+	margin-top: 0;
+}
+h3 {
+	margin: 0;
+}
+a {
+	color: #090005;
+	text-decoration: none;
+}
+a:hover {
+	background: #000000;
+	color: white;
+}
+.container {
+  width: 98%;
+  margin: 0 auto;
+  padding: 0 30px; }
+
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 65px 50px;
+	overflow: hidden;
+
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.bouton {
+	background: #00FFFF;
+	padding: 10px;
+}
+/*Navigation
+______________________*/
+nav {
+	position: ;
+	text-align: center;
+	top: 0;
+	width: 100%;
+}
+nav a {
+	display: inline-block;
+	padding: 15px 20px;
+	text-decoration: none;
+	font-weight: 700;
+	height: 100%;
+	max-width: 25v5px;
+	flex: 1 0 auto;
+}
+/* Header
+______________________*/
+header {
+	background: rgb(255,255,224);
+	width: 100%;
+	/*  width: 150px;  */
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	}
+	header a {
+		color: #969696;
+		text-decoration: none;
+		uppercase; font-size: 1em;
+	}
+	header a.active, header a:hover {
+		color: #3d3d3d;
+	}
+	header li{
+		margin-right: 30px;
+	}
+	/* Animation */
+	header,nav, a, img, li{
+		transition: all 0.5s;
+		-moz-transition: all 0.5s; /* Firefox 4 */
+		-webkit-transition: all 0.5s; /* Safari and Chrome */
+		-o-transition: all 0.5s; /* Opera */
+	}
+/*	header h1#logo {
+		display: inline-block;
+		height: 150px;
+		margin: 0 auto;
+	} */
+	header nav {
+		display: inline-block;
+		float: right;
+	}
+	header nav a {
+		line-height: 170px;
+	}
+	header nav a:hover {
+		color: white;
+	}
+	header.smaller {
+		height: 50px;
+	}
+	header.smaller h1#logo {
+		width: 150px;
+		height: 45px;
+		line-height: 15px;
+		font-size: 18px;
+	}
+	header.smaller nav a {
+		line-height: 20px;
+	}
+
+/* Article and Footer
+______________________*/
+article, footer {
+	background: #3B2D42;
+	color: #8D99AE;
+}
+article  {
+}
+article h1, article h2 {
+	color: #EDF2F4;
+	margin: 0;
+}
+.center{
+	text-align: center;
+	margin: auto;
+}
+#about {
+	background: #3B2D42;
+	border-top: 1px dashed #FFFFFF;
+	margin-top: 150px;
+}
+.flex {
+	display: flex;
+	justify-content: space-around;
+}
+.brand {
+	width: 30%;
+}
+.categorie {
+	display: flex;
+	width: 100%
+}
+.profile-img {
+	border-radius: 50%;
+}
+.download {
+	bottom: 122px;
+	color: #006666;
+	right: 0;
+	position: absolute;
+}
+footer {
+	text-align: center;
+}
+.contact-info a {
+	padding: 10px;
+	display: inline-block;
+}
+/* Work Experience
+______________________*/
+.work {
+	background: #EDF2F4;
+}
+h3 ~ p {
+	margin: 0;
+}
+.job-description {
+	margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+	margin-top: 0;
+}
+
+/* Education
+______________________*/
+.education h1, .education h2, .education h3, .education hp,{
+	padding-left: 80px;
+}
+.education {
+	background:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.9)),url(http://www.optrickmedia.com/img/headerprague.jpg) rgba(0,0,0,1) no-repeat center fixed;
+	color: white;
+}
+p + h3 {
+	margin-top: 30px;
+}
+/* Media queries
+______________________*/
+/* Small desktop / portrait tablette - 1024px and smaller */
+@media(min-width:900px) {
+	.col-narrow {
+		width: 30%;
+		float: left;
+	}
+	.col-wide {
+		width: 70%;
+		float: left;
+		padding-left: 20px;
+	}
+}
+@media(max-width:899px) {
+	header {
+		text-align: center;
+	}
+	.profile-img {
+		width: 200px;
+	}
+}
+/* myJavascript
+______________________*/
+.centerImg {
+    margin: auto;
+    width: 95%;
+}
+.sunset {
+	max-width: 600px;
+}
+.cta a {
+	display: inline-block;
+	padding: 0 .5em;
+	font-size: 2em;
+	border: 5px solid #FFFCED;
+}
+.hide {
+	height: 0;
+	overflow: hidden;
+}
