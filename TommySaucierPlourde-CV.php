@@ -33,11 +33,10 @@
 			</div> <!-- categorie -->
 		</nav>
 	</header><!-- /header -->
-
 <!-- ==================================================
 Introduction sur mon profil
 ================================================== -->
-     <article id="about">
+<!--     <article id="about">
      	 <a href="http://optrickmedia.com/SaucierPlourdeTommy_CV.pdf"class="bouton download" download >Dowload PDF</a>
         <div class="content-wrap">
             <img class="profile-img col-narrow" src="img/tommysaucierplourde.jpg" alt="Tommy Saucier Plourde" />
@@ -47,82 +46,171 @@ Introduction sur mon profil
                 <p>Curieux de nature et passionné par le design, je suis constamment à l’affût des nouveautés et des tendances afin d’optimiser mes techniques de travail et garde ma créativité stimulée. Devant une problématique, j’oriente ma réflexion sur les besoins des utilisateurs avec trois objectifs en tête: intuitivité, performance et esthétisme.</p>
             </div>
         </div> <!-- /content-wrap -->
-    </article>
+<!--    </article>
 	<main>
 <!-- Work -->
-    <section id="work" class="work">
-    	<div class="content-wrap">
-        	<h2>Expérience</h2><br />
+    <section id="work" class="work flex">
+    	<div class=" content-wrap">
+					<div>
+						<h2 class="uppercase">Expériences professionnelles</h2>
+					</div>
+					<div class="flex">
+						<!-- 2e emploi -->
+						<div class="col-narrow">
+							<h3>2017</h3>
+						</div>
+						<!-- Details -->
+						<div class="col-wide job-description">
+							<h3>Optrick Media</h3>
+							<ul>
+								<li>PROJET AQUA INGENIUM</li>
+								<li>· Concevoir et développer un site Web réactif;</li>
+								<li>· Intégrer des animations sur le site Web afin de dynamiser le contenu;</li>
+								<li>· Produire des pièces imprimées pour un kiosque.</li>
+								<br />
+								<li>Visiter le site web: <a href="http://aquaingenium.com/" target="_blank"><strong>AQUA INGENIUM</strong></a>.</li>
+							</ul>
+						</div>
+					</div> <!-- flex-experience-->
+					<div class="flex">
+						<!-- 1er emploi -->
+	          <div class="col-narrow">
+	          	<h3>2017</h3>
+	          </div>
+	          <!-- Details -->
+	          <div class="col-wide job-description">
+							<ul>
+								<h3>Mass-Média Capitale</h3>
+
+								<li>PROJET VALCARTIER / CALYPSO</li>
+								<li>· Concevoir et préparer pour l’impression le territoire visuel de l’hôtel de Valcartier;</li>
+								<li>· Produire du matériel publicitaire selon les normes des marques (imprimé, web et médias sociaux);</li>
+								<li>· Produire l’affichage des parcs (signalétique, panneaux géants, menus);</li>
+								<li>· Préparer des maquettes et des montages vidéo servant à la publicité télévisée.</li>
+								<br />
+								<li>Voir le projet: <a href="http://aquaingenium.com/" target="_blank"><strong> ------</strong></a>.</li>
+
+								<br />
+								<li>PROJET VALCARTIER / CALYPSO</li>
+								<li>· Décliner les campagnes publicitaires pour les différents médias (imprimé, web, téléviseur);</li>
+								<li>· Assurer la qualité des livrables d’équipes de création externes;</li>
+								<li>· Participer au tournage de publicité.</li>
+								<br />
+								<li>Voir le projet: <a href="http://aquaingenium.com/" target="_blank"><strong> ------</strong></a>.</li>
+
+								<br />
+								<li>PROJET KIA QUÉBEC et KIA STE-FOY</li>
+								<li>· Décliner les campagnes publicitaires selon les normes de KIA  (imprimé, web, médias sociaux);</li>
+								<li>· Produire le matériel visuel et publicitaire interne des concessions.</li>
+								<br />
+								<li>Voir le projet: <a href="http://aquaingenium.com/" target="_blank"><strong> ------</strong></a>.</li>
+
+								<br />
+								<li>PROJET CONDO LB9</li>
+								<li>· Concevoir et développer un site Web réactif;</li>
+								<li>· Produire les campagnes publicitaires selon les normes de l’entreprise  (journal);</li>
+								<li>· Assurer le suivi des campagnes publicitaires avec le client.</li>
+								<br />
+								<li>Voir le projet: <a href="http://aquaingenium.com/" target="_blank"><strong> ------</strong></a>.</li>
+							</ul>
+						</div>
+					</div> <!-- flex-experience-->
+					<div class="flex">
+						<!-- 2e emploi -->
+						<div class="col-narrow">
+							<h3>2016</h3>
+						</div>
+						<!-- Details -->
+						<div class="col-wide job-description">
+							<ul>
+								<h3>Optrick Media</h3>
+								<li>PROJET TEAM BASKA</li>
+								<li>· Concevoir l’image de marque et les normes visuelles de l’entreprise;</li>
+								<li>· Produire des campagnes publicitaires pour des galas de boxes (médias sociaux, imprimé);</li>
+								<li>· Produire des objets promotionnels pour l’équipe et la marque.</li>
+								<br />
+								<li>Voir le projet: <a href="http://optrickmedia.com/portfolio-teambaska.html" target="_blank"><strong>TEAM BASKA</strong></a>.</li>
+							</ul>
+						</div>
+					</div> <!-- flex-experience-->
+      	</div> <!-- content-wrap -->
+				<div class="secondary-content">
 					<!-- 2e emploi -->
 					<div class="col-narrow">
-						<h3>Designer graphique & developeur web</h3>
-						<p class="uppercase">Optrick Media / Freelance</p>
-						<p>Septembre 2013 / Aujourd'hui</p>
-						<p>4 ans 5 mois</p>
+						<h2 class="uppercase">Compétences Techniques</h2>
 					</div>
-					<!-- Details -->
-					<div class="col-wide job-description">
-						<ul>
-							<li>PROJET AQUA INGENIUM</li>
-							<li>· Concevoir et développer un site Web réactif;</li>
-							<li>· Intégrer des animations sur le site Web afin de dynamiser le contenu;</li>
-							<li>· Produire des pièces imprimées pour un kiosque.</li>
-							<br />
-							<li>Voir le projet: <a href="http://aquaingenium.com/" target="_blank"><strong>AQUA INGENIUM</strong></a>.</li>
-
-							<br />
-							<li>PROJET TEAM BASKA</li>
-							<li>· Concevoir l’image de marque et les normes visuelles de l’entreprise;</li>
-							<li>· Produire des campagnes publicitaires pour des galas de boxes (médias sociaux, imprimé);</li>
-							<li>· Produire des objets promotionnels pour l’équipe et la marque.</li>
-							<br />
-							<li>Voir le projet: <a href="http://optrickmedia.com/portfolio-teambaska.html" target="_blank"><strong>TEAM BASKA</strong></a>.</li>
-						</ul>
-
-					</div>
-					<!-- 1er emploi -->
-          <div class="col-narrow">
-          	<h3>Designer graphique</h3>
-              <p class="uppercase">Mass-Média Capitale</p>
-              <p>Août 2016 / Août 2017</p>
-							<p>1 an</p>
-          </div>
-          <!-- Details -->
-          <div class="col-wide job-description">
-						<ul>
-							<li>PROJET VALCARTIER / CALYPSO</li>
-							<li>· Concevoir et préparer pour l’impression le territoire visuel de l’hôtel de Valcartier;</li>
-							<li>· Produire du matériel publicitaire selon les normes des marques (imprimé, web et médias sociaux);</li>
-							<li>· Produire l’affichage des parcs (signalétique, panneaux géants, menus);</li>
-							<li>· Préparer des maquettes et des montages vidéo servant à la publicité télévisée.</li>
-							<br />
-							<li>Voir le projet: <a href="http://aquaingenium.com/" target="_blank"><strong> ------</strong></a>.</li>
-
-							<br />
-							<li>PROJET VALCARTIER / CALYPSO</li>
-							<li>· Décliner les campagnes publicitaires pour les différents médias (imprimé, web, téléviseur);</li>
-							<li>· Assurer la qualité des livrables d’équipes de création externes;</li>
-							<li>· Participer au tournage de publicité.</li>
-							<br />
-							<li>Voir le projet: <a href="http://aquaingenium.com/" target="_blank"><strong> ------</strong></a>.</li>
-
-							<br />
-							<li>PROJET KIA QUÉBEC et KIA STE-FOY</li>
-							<li>· Décliner les campagnes publicitaires selon les normes de KIA  (imprimé, web, médias sociaux);</li>
-							<li>· Produire le matériel visuel et publicitaire interne des concessions.</li>
-							<br />
-							<li>Voir le projet: <a href="http://aquaingenium.com/" target="_blank"><strong> ------</strong></a>.</li>
-
-							<br />
-							<li>PROJET CONDO LB9</li>
-							<li>· Concevoir et développer un site Web réactif;</li>
-							<li>· Produire les campagnes publicitaires selon les normes de l’entreprise  (journal);</li>
-							<li>· Assurer le suivi des campagnes publicitaires avec le client.</li>
-							<br />
-							<li>Voir le projet: <a href="http://aquaingenium.com/" target="_blank"><strong> ------</strong></a>.</li>
-						</ul>
-					</div>
-      	</div> <!-- content-wrap -->
+					<div class="flex">
+						<!-- 2e emploi -->
+						<div class="col-img">
+							<h3>2016</h3>
+						</div>
+						<!-- Details -->
+						<div class="col-text">
+							<p>Suite ADOBE</p>
+							<p>Git</p>
+							<p>Atom</p>
+							<p>Final cut</p>
+							<p>MailChimp</p>
+							<p>Suite Office</p>
+							<p>InVision</p>
+						</div>
+					</div> <!-- flex-experience -->
+					<div class="flex">
+						<!-- 2e emploi -->
+						<div class="col-img">
+							<h3>2016</h3>
+						</div>
+						<!-- Details -->
+						<div class="col-text">
+							<p>Accessibilité</p>
+							<p>UX / UI</p>
+							<p>Ergonomie</p>
+							<p>Animation</p>
+							<p>W3C</p>
+							<p>SEO</p>
+							<p>Google Analytics</p>
+						</div>
+					</div> <!-- flex-experience -->
+					<div class="flex">
+						<!-- 2e emploi -->
+						<div class="col-img">
+							<h3>2016</h3>
+						</div>
+						<!-- Details -->
+						<div class="col-text">
+							<p>HTML5</p>
+							<p>CSS3</p>
+							<p>SVG</p>
+							<p>JAVASCRIPT</p>
+							<p>SASS</p>
+						</div>
+					</div> <!-- flex-experience -->
+					<div class="flex">
+						<!-- 2e emploi -->
+						<div class="col-img">
+							<h3>2016</h3>
+						</div>
+						<!-- Details -->
+						<div class="col-text">
+							<p>Photographie</p>
+							<p>Typographie</p>
+							<p>Illustration</p>
+							<p>Video</p>
+						</div>
+					</div> <!-- flex-experience -->
+					<div class="flex">
+						<!-- 2e emploi -->
+						<div class="col-img">
+							<h3>2016</h3>
+						</div>
+						<!-- Details -->
+						<div class="col-text">
+							<p>Français</p>
+							<p>Anglais</p>
+							<p>Espagnol</p>
+						</div>
+					</div> <!-- flex-experience -->
+				</div> <!-- secondary-content -->
   	</section> <!-- section-work -->
   	<!-- Education -->
     <section id="education" class="education">

@@ -17,7 +17,7 @@ html {
 	box-sizing: inherit;
 }
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 }
 ul {
@@ -27,17 +27,11 @@ ul {
 }
 h1, h2 {
 	font-family: 'Montserrat', sans-serif;
+	margin: 0;
 }
 h1 {
 	font-size: 2.6em;
 	letter-spacing: 3px;
-	margin: 0;
-}
-h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 2.3em;
-	font-weight: 700;
-	line-height: 1.2;
 	margin: 0;
 }
 h3 {
@@ -50,6 +44,12 @@ h3 {
 a {
 	text-decoration: none;
 }
+p {
+	font-size: 1.1em;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0;
+}
 figure {
 	margin: 0 auto;
 	padding: 0;
@@ -61,13 +61,17 @@ img {
 .superFat {
 	font-size: 5.6em;
 }
-.col-wide h2:first-of-type {
-	color: #CCCCCC;
-	font-family: 'Merriweather', serif;
-	font-size: 1.1em;
-	font-weight: 200;
-	margin-top: 15px;
-	text-transform: uppercase;
+.col-img {
+	width: 35%
+}
+.col-text {
+	width: 65%;
+	padding-bottom: 20px;
+}
+.col-wide h3:first-of-type {
+	font-size: 1.2em;
+	font-weight: 700;
+	padding-bottom: 15px;
 }
 .col-wide p:first-of-type {
 	margin-top: 5px;
@@ -78,12 +82,18 @@ img {
   padding: 0 30px;
 }
 .content-wrap {
-	max-width: 950px;
-	margin: 0 auto;
-	padding: 65px 50px;
+	width: 65%;
 	overflow: hidden;
+	padding: 100px 100px;
 }
-
+.content-wrap h2 {
+	font-size: 1.9em;
+	padding-bottom: 20px;
+}
+.secondary-content {
+	padding: 60px 30px;
+	width: 35%;
+}
 .uppercase {
 	text-transform: uppercase;
 }
@@ -121,7 +131,6 @@ header {
 	width: 100%;
 	/*  width: 150px;  */
 	overflow: hidden;
-	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 999;
@@ -186,6 +195,12 @@ article h1, article h2 {
 	padding: 30px;
 	width: 35%;
 }
+.profil h2 {
+	font-size: 2.3em;
+	font-weight: 700;
+	line-height: 1.2;
+	margin: 0;
+}
 .brand a {
 	color: #ff4a03;
 }
@@ -214,18 +229,30 @@ ______________________*/
 .work {
 	background: #EDF2F4;
 }
+.work h2 {
+	color: #ff4a03;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
 h3 ~ p {
 	margin: 0;
 }
 .job-description {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
 	margin-bottom: 25px;
 }
-
+.job-description li:first-of-type {
+	font-size:  0.9em !important;
+	font-weight: 700;
+}
 .job-description p:first-of-type {
 	margin-top: 0;
 }
-
-/* Education
+.job-description a {
+	color: #ff4a03;
+	font-size: 0.9em;
+}/* Education
 ______________________*/
 .education h1, .education h2, .education h3, .education hp,{
 	padding-left: 80px;
@@ -242,13 +269,11 @@ ______________________*/
 /* Small desktop / portrait tablette - 1024px and smaller */
 @media(min-width:900px) {
 	.col-narrow {
-		width: 30%;
-		float: left;
+		font-size: 1.4em;
+		width: 10%;
 	}
 	.col-wide {
-		width: 70%;
-		float: left;
-		padding-left: 20px;
+		width: 90%;
 	}
 }
 @media(max-width:899px) {
