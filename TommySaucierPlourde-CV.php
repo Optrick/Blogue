@@ -9,17 +9,22 @@
     <link rel="icon" type="image/png" href="http://optrickmedia.com/blogue/img/favicon.png">
     <link href="css/---bootstrap.css" rel="stylesheet">
 		<link href="css/optrick.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:300,700" rel="stylesheet">
     <link rel="stylesheet" href="css/resizeNav.css" />
 </head>
 <body>
 	<header>
-		<nav class="flex uppercase">
-			<div class="brand">
-				<div class="center">
-					<h1 id="logo">TOMMY <br />SAUCIER <br />PLOURDE</h1>
-				</div> <!-- center -->
-			</div> <!-- brand -->
+		<div class="flex uppercase darkGrey">
+			<div class="brand center">
+				<h1 id="logo">TOMMY SAUCIER PLOURDE</h1>
+				<h3 id="contact"><a href="#" target="_blank">418 316-8123</a> | <a href="#" target="_blank">saucier-plourde.tommy@optrickmedia.com</a></h3>
+			</div> <!-- center -->
+			<div class="profil">
+				<h2>DESIGNER GRAPHIQUE</h2>
+				<h2>Developer Web</h2>
+			</div> <!-- center -->
+		</div> <!-- brand -->
+		<nav class="uppercase">
 			<div class="categorie">
 				<a href="#about">À propos</a>
 				<a href="#work">Mes expériences</a>
