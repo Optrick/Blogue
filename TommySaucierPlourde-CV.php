@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<!-- Font Awesome -->
-	<script src="https://use.fontawesome.com/fc14a13db3.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tommy Saucier Plourde | Curriculum</title>
@@ -10,7 +9,6 @@
     <link href="css/---bootstrap.css" rel="stylesheet">
 		<link href="css/optrick.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:300,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/resizeNav.css" />
 </head>
 <body>
 	<header>
@@ -24,8 +22,31 @@
 				<h2>Developer Web</h2>
 			</div> <!-- center -->
 		</div> <!-- brand -->
-		<nav class="uppercase">
-			<div class="categorie">
+		<div class="flex g-aptitude">
+			<div class="aptitude">
+				<figure>
+					<img class="inject-me" src="svg/Graphique-Design.svg" alt="Aptitudes: Graphique Design">
+				</figure>
+			</div><!--   01  -->
+			<div class="aptitude">
+				<figure>
+					<img class="inject-me" src="svg/Graphique-Design.svg" alt="Aptitudes: Graphique Design">
+				</figure>
+			</div><!--   02  -->
+			<div class="aptitude">
+				<figure>
+					<img class="inject-me" src="svg/Graphique-Design.svg" alt="Aptitudes: Graphique Design">
+				</figure>
+			</div><!--   03  -->
+			<div class="aptitude">
+				<figure>¡
+					<img class="inject-me" src="svg/Graphique-Design.svg" alt="Aptitudes: Graphique Design">
+				</figure>
+			</div><!--   04  -->
+		</div><!--   g-aptitude  -->
+
+		<nav class="flex">
+			<div class="categorie uppercase">
 				<a href="#about">À propos</a>
 				<a href="#work">Mes expériences</a>
 				<a href="#education">Éducation</a>
@@ -57,7 +78,7 @@ Introduction sur mon profil
 					<div class="flex">
 						<!-- 2e emploi -->
 						<div class="col-narrow">
-							<h3>2017</h3>
+							<p>2017</p>
 						</div>
 						<!-- Details -->
 						<div class="col-wide job-description">
@@ -75,7 +96,7 @@ Introduction sur mon profil
 					<div class="flex">
 						<!-- 1er emploi -->
 	          <div class="col-narrow">
-	          	<h3>2017</h3>
+	          	<p>2017</p>
 	          </div>
 	          <!-- Details -->
 	          <div class="col-wide job-description">
@@ -118,7 +139,7 @@ Introduction sur mon profil
 					<div class="flex">
 						<!-- 2e emploi -->
 						<div class="col-narrow">
-							<h3>2016</h3>
+							<p>2017</p>
 						</div>
 						<!-- Details -->
 						<div class="col-wide job-description">
@@ -141,8 +162,8 @@ Introduction sur mon profil
 					</div>
 					<div class="flex">
 						<!-- 2e emploi -->
-						<div class="col-img">
-							<h3>2016</h3>
+						<div class="col-img" style="background">
+							<h3><span class="tag"></span></h3>
 						</div>
 						<!-- Details -->
 						<div class="col-text">
@@ -158,7 +179,7 @@ Introduction sur mon profil
 					<div class="flex">
 						<!-- 2e emploi -->
 						<div class="col-img">
-							<h3>2016</h3>
+              <h3><span class="tag"></span></h3>
 						</div>
 						<!-- Details -->
 						<div class="col-text">
@@ -174,7 +195,7 @@ Introduction sur mon profil
 					<div class="flex">
 						<!-- 2e emploi -->
 						<div class="col-img">
-							<h3>2016</h3>
+              <h3><span class="tag"></span></h3>
 						</div>
 						<!-- Details -->
 						<div class="col-text">
@@ -188,7 +209,7 @@ Introduction sur mon profil
 					<div class="flex">
 						<!-- 2e emploi -->
 						<div class="col-img">
-							<h3>2016</h3>
+              <h3><span class="tag"></span></h3>
 						</div>
 						<!-- Details -->
 						<div class="col-text">
@@ -201,7 +222,7 @@ Introduction sur mon profil
 					<div class="flex">
 						<!-- 2e emploi -->
 						<div class="col-img">
-							<h3>2016</h3>
+              <h3><span class="tag"></span></h3>
 						</div>
 						<!-- Details -->
 						<div class="col-text">
@@ -248,5 +269,16 @@ Introduction sur mon profil
 
         </div>  <!-- content-wrap -->
     </footer>
+		<!-- ==================================================
+		Script pour SVG  -->
+		<script type="text/javascript" src="JS/svg-injector.min.js"></script>
+		<script>
+		  // Elements to inject
+		  var mySVGsToInject = document.querySelectorAll('img.inject-me');
+		  // Do the injection
+		  SVGInjector(mySVGsToInject);
+		</script>
+		<!-- =============================================== -->
+
 </body>
 </html>

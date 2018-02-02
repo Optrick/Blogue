@@ -53,7 +53,6 @@ p {
 figure {
 	margin: 0 auto;
 	padding: 0;
-	width: 600px;
 }
 img {
 	display: block;
@@ -62,10 +61,10 @@ img {
 	font-size: 5.6em;
 }
 .col-img {
-	width: 35%
+	width: 16%
 }
 .col-text {
-	width: 65%;
+	width: 70%;
 	padding-bottom: 20px;
 }
 .col-wide h3:first-of-type {
@@ -186,6 +185,9 @@ article h1, article h2 {
 	padding: 30px;
 	width: 65%;
 }
+.brand a {
+	color: #ff4a03;
+}
 .brand a:hover{
 	color: #fff;
 }
@@ -201,8 +203,12 @@ article h1, article h2 {
 	line-height: 1.2;
 	margin: 0;
 }
-.brand a {
-	color: #ff4a03;
+.g-aptitude {
+	width: 100%;
+}
+.aptitude svg {
+    width: 25%;
+    height: auto;
 }
 .categorie {
 	display: flex;
@@ -224,6 +230,19 @@ footer {
 	padding: 10px;
 	display: inline-block;
 }
+/* Tag
+______________________*/
+.tag::before {
+	display: inline-block;
+	width: 3em;
+	height:3em;
+	content: "";
+	background: url("../svg/outils.png") center no-repeat;
+	/* Cheat for older browser compatibility. New one will render the svg. */
+	background-image: url("../svg/outils.svg") center no-repeat;
+	background-size: cover;
+}
+
 /* Work Experience
 ______________________*/
 .work {
