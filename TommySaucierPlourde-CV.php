@@ -1,14 +1,25 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<!-- Font Awesome -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tommy Saucier Plourde | Curriculum</title>
+
+    <!-- ================================================== -->
     <link rel="icon" type="image/png" href="http://optrickmedia.com/blogue/img/favicon.png">
     <link href="css/---bootstrap.css" rel="stylesheet">
-		<link href="css/optrick.css" rel="stylesheet">
+		<link href="css/optrick.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:300,700" rel="stylesheet">
+    <!--  <link href="css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- ================================================== -->
+
+    <!-- ================================================== -->
+    <script>
+      /*! grunt-grunticon Stylesheet Loader - v2.1.2 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
+    (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+      grunticon(["svg/grunticon/icons.data.svg.css", "svg/grunticon/icons.data.png.css", "svg/grunticon/icons.fallback.css"]);
+    </script>
+    <noscript><link href="svg/grunticon/icons.fallback.css" rel="stylesheet"></noscript>    <!-- ================================================== -->
 </head>
 <body>
 	<header>
@@ -288,38 +299,51 @@ Introduction sur mon profil
     	</div> <!-- content-wrap -->
     </section>
   </main>
+  <!-- Fotter & contact info -->
+  <div id="contact">
+      <div class="footer">
+          <h2>Contactez-moi!</h2>
 
-    <!-- Fotter & contact info -->
-    <footer id="contact">
-        <div class="content-wrap">
-            <h2>Contactez-moi!</h2>
+          <!-- Social media link. -->
+          <div class="contact-info">
+              <a href="mailto:saucier-plourde.tommy@optrickmedia.com"><i class="fa icon-envelope-alt fa-2x" aria-hidden="true"></i><span class="sr-only">Écrivez-moi</span></a>
+              <a href="https://www.linkedin.com/in/tommysaucierplourde/"><i class="fa icon-github-square" aria-hidden="true"></i><span class="sr-only">mon Linkedin</span></a>
+              <a href="http://optrickmedia.com/"><i class="fa fa-suitcase fa-2x" aria-hidden="true"></i><span class="sr-only">mon Portfolio</span></a>
+              <a href="https://www.behance.net/optrickmedia"><i class="fa fa-behance fa-2x" aria-hidden="true"></i><span class="sr-only">mon Behance</span></a>
+          </div>
+                      <!-- Social media link. -->
+          <div class="contact-info">
+  		<p>Copyright 2017 par Tommy Saucier Plourde</p>
+          </div>
 
-            <!-- Social media link. -->
-            <div class="contact-info">
-                <a href="mailto:saucier-plourde.tommy@optrickmedia.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i><span class="sr-only">Écrivez-moi</span></a>
-                <a href="https://www.linkedin.com/in/tommysaucierplourde/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i><span class="sr-only">mon Linkedin</span></a>
-                <a href="http://optrickmedia.com/"><i class="fa fa-suitcase fa-2x" aria-hidden="true"></i><span class="sr-only">mon Portfolio</span></a>
-                <a href="https://www.behance.net/optrickmedia"><i class="fa fa-behance fa-2x" aria-hidden="true"></i><span class="sr-only">mon Behance</span></a>
-            </div>
-                        <!-- Social media link. -->
-            <div class="contact-info">
-				<p>Copyright 2017 par Tommy Saucier Plourde</p>
-            </div>
+      </div>  <!-- content-wrap -->
+  </div>  <!-- footer -->
 
-        </div>  <!-- content-wrap -->
-    </footer>
-		<!-- ================================================== -->
-    <!-- Script pour SVG - Support extgernal SVGs and fallback png -->
-		<script type="text/javascript" src="JS/svg-injector.min.js"></script>
-		<script>
-		  // Elements to inject
-		  var mySVGsToInject = document.querySelectorAll('img.inject-me');
-		  // Do the injection
-		  SVGInjector(mySVGsToInject);
-		</script>
-    <script type="text/javascript" src="JS/svg4everybody.min.js"></script>
-    <script>svg4everybody(); // run it now or whenever you are ready</script>
-		<!-- =============================================== -->
+  <footer id="colophon" class="footer-area centered">
+    <nav class="social-nav" role="navigation">
+      <ul>
+        <li><a class="icon-github" href="#" ><span class="screen-reader-text">GitHub</span></a></li>
+        <li><a class="icon-behance" href="#" ><span class="screen-reader-text">Behance</span></a></li>
+        <li><a class="icon-etsy" href="#" ><span class="screen-reader-text">Etsy</span></a></li>
+        <li><a class="icon-facebook" href="#" ><span class="screen-reader-text">Facebook</span></a></li>
+        <li><a class="icon-linkedin" href="#" ><span class="screen-reader-text">LinkedIn</span></a></li>
+      </ul>
+    </nav>  <!-- social-nav -->
+  </footer> <!-- #colophon -->
+
+
+  <!-- ================================================== -->
+  <!-- Script pour SVG - Support extgernal SVGs and fallback png -->
+  <script type="text/javascript" src="js/svg-injector.min.js"></script>
+  <script>
+    // Elements to inject
+    var mySVGsToInject = document.querySelectorAll('img.inject-me');
+    // Do the injection
+    SVGInjector(mySVGsToInject);
+  </script>
+  <script type="text/javascript" src="js/svg4everybody.min.js"></script>
+  <script>svg4everybody(); // run it now or whenever you are ready</script>
+  <!-- =============================================== -->
 
 </body>
 </html>

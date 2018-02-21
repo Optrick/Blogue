@@ -60,6 +60,25 @@ img {
 .superFat {
 	font-size: 5.6em;
 }
+.uppercase {
+	text-transform: uppercase;
+}
+.bouton {
+	background: #00FFFF;
+	padding: 10px;
+}
+.right {
+	float: right;
+}
+.italic {
+	font-style: italic;
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: lowercase;
+}
+.screen-reader-text {
+	display: none;
+}
 .col-img {
 	width: 16%
 }
@@ -93,24 +112,17 @@ img {
 	padding: 60px 30px;
 	width: 35%;
 }
-.uppercase {
-	text-transform: uppercase;
+.footer {
+	overflow: hidden;
+	padding: 100px 100px;
+	text-align: center;
+	width: 100%;
 }
-.bouton {
-	background: #00FFFF;
-	padding: 10px;
+footer {
 }
-.right {
-	float: right;
-}
-.italic {
-	font-style: italic;
-	font-size: 1em;
-	font-weight: 400;
-	text-transform: lowercase;
-}
-/*Navigation
+/*	Navigation
 ______________________*/
+/*	Main */
 nav {
 	background: #ff4a03;
 	text-align: left;
@@ -133,6 +145,62 @@ nav a:hover {
 	/*	border: 3px solid #ff4a03;	*/
 	color: #ff4a03;
 	font-size: 1.8em;
+}
+/*	footer - social */
+.social-nav {
+	display: flex;
+	justify-content: center;
+}
+.social-nav ul {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 20px;
+	padding: 0;
+	list-style-type: none;
+	background: grey;
+	width: 22%;
+	height: 48px;
+	border-radius: 50px;
+
+}
+.social-nav li {
+	width: 40px;
+	height: 40px;
+	background: #e6e6e6;
+	background-position: center;
+	margin-top: 4px;
+	border-radius: 50px;
+}
+.social-nav a::before {
+	display: block;
+	width: 40px;
+	height: 40px;
+	content: "";
+}
+.social-nav .icon-linkedin:hover {
+	background-color: #ff4a03;
+	border-radius: 50px;
+	width: 40px;
+}
+.social-nav .icon-behance:hover {
+	background-color: #ff4a03;
+	border-radius: 50px;
+	width: 40px;
+}
+.social-nav .icon-github:hover {
+	background-color: #ff4a03;
+	border-radius: 50px;
+	width: 40px;
+}
+.social-nav .icon-facebook:hover {
+	background-color: #ff4a03;
+	border-radius: 50px;
+	width: 40px;
+}
+.social-nav .icon-etsy:hover {
+	background-color: #ff4a03;
+	border-radius: 50px;
+	width: 40px;
 }
 /* Header
 ______________________*/
@@ -231,9 +299,6 @@ article h1, article h2 {
 	color: #006666;
 	right: 0;
 	position: absolute;
-}
-footer {
-	text-align: center;
 }
 .contact-info a {
 	padding: 10px;
